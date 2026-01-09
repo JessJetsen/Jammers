@@ -1,12 +1,10 @@
----
-title: "Jetsen Cybernetics I — House-Bots for Humans"
-description: "SERGE and the JAMMERS platform — warm, trustworthy companion robots and a three-helper AI model built for people, not paperclips."
+"Jetsen Cybernetics I — House-Bots for Humans"
+"Serge and the JAMMERS platform — warm, trustworthy companion robots and a three-helper AI model built for people, not paperclips."
 ---
 
 # Jetsen Cybernetics
 *Built with intention, not hype.*
 
-## Home
 **Why We’re Building House-Bots**
 
 > If we’re going to build this future, we have to do it in the open, with clear rules and clear hearts.
@@ -123,4 +121,4 @@ If embodied AI is coming into homes, it should be shaped by people who care abou
 
 ---
 
-© {{year}} Jetsen Cybernetics — *Built with intention, not hype.*
+© 2026 Jetsen Cybernetics — *Built with intention, not hype.*
