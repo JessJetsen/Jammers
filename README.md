@@ -1,7 +1,3 @@
-"Jetsen Cybernetics I — House-Bots for Humans"
-"Serge and the JAMMERS platform — warm, trustworthy companion robots and a three-helper AI model built for people, not paperclips."
----
-
 # Jetsen Cybernetics
 *Built with intention, not hype.*
 
