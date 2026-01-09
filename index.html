@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>TheTinkeringWizard - Jetsen Cybernetics I — House-Bots for Humans</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description"
+        content="SERGE and the JAMMERS platform — warm, trustworthy companion robots and a three-helper AI model built for people, not paperclips." />
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">
+        <!-- Swap this for TTW SVG later -->
+        <span class="logo-mark">◎</span>
+        <span class="logo-text">Jetsen Cybernetics</span>
+      </div>
+      <nav class="nav">
+        <a href="#home">Home</a>
+        <a href="#platform">Platform</a>
+        <a href="#helpers">Three Helpers</a>
+        <a href="#about">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HOME / HERO -->
+    <section id="home" class="section hero">
+      <div class="container">
+        <p class="eyebrow">Why We’re Building House-Bots</p>
+        <h2>
+          If we’re going to build this future, we have to do it in the open,
+          with clear rules and clear hearts.
+        </h2>
+        <p class="lead">
+          AI and robots are arriving either way. The question isn’t
+          “can we stop it?” — it’s “who do they serve, and how do we
+          live with them?”
+        </p>
+
+        <div class="hero-grid">
+          <div class="card">
+            <h2>The Worry</h2>
+            <ul>
+              <li>“Robots will take our jobs.”</li>
+              <li>“AI will flood the world with garbage.”</li>
+              <li>“A few companies will own everything.”</li>
+              <li>“Everything is moving too fast to be safe or fair.”</li>
+            </ul>
+            <p>
+              Those aren’t irrational fears. They’re signals.
+              This project exists because we take them seriously.
+            </p>
+          </div>
+          <div class="card">
+            <h2>The Alternative</h2>
+            <p>
+              We want robots that live with us, not above us:
+            </p>
+            <ul>
+              <li>trustworthy, warm, honest about what they are</li>
+              <li>doing real work in homes and cities</li>
+              <li>built with clear limits and accountability</li>
+            </ul>
+            <p>
+              Not grey stormtrooper machines. 
+              Not ad billboards on wheels.
+              Real helpers. House-bots. 
+              Companions with boundaries.
+            </p>
+          </div>
+        </div>
+        <a href="the worry.md">1st draft</a>
+      </div>
+    </section>
+
+    <!-- PLATFORM / JAMMERS -->
+    <section id="platform" class="section section-alt">
+      <div class="container">
+        <p class="eyebrow">The Platform</p>
+        <h2>JAMMERS — The Robotics Backbone</h2>
+        <p class="lead">
+          JAMMERS is the engineering backbone 
+          that lets Serge-like bots exist:
+          a modular, CUDA-powered robotics 
+          platform designed for home-scale embodied AI.
+        </p>
+
+        <div class="grid-2">
+          <div>
+            <h3>Design Goals</h3>
+            <ul>
+              <li><strong>Modular</strong> — parts can be swapped, repaired, and upgraded.</li>
+              <li><strong>Safe</strong> — power and logic separated; failures fail safe, not dramatic.</li>
+              <li><strong>Scalable</strong> — from pet-scale companions to mid-sized helper droids.</li>
+              <li><strong>Transparent</strong> — documented architecture instead of mystery boxes.</li>
+            </ul>
+
+            <h3>Core Architecture</h3>
+            <p><strong>Compute</strong></p>
+            <ul>
+              <li>3× NVIDIA Jetson Orin Nano modules</li>
+              <li>C++ end-to-end, accelerated with CUDA</li>
+              <li>Each module with a clear role:
+                <ul>
+                  <li><strong>Coordinator</strong> — speech, planning, connectivity</li>
+                  <li><strong>Vision</strong> — cameras, depth, spatial understanding</li>
+                  <li><strong>Motion</strong> — locomotion, balance, actions</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <p><strong>Power</strong></p>
+            <ul>
+              <li>Distributed LiFePO₄ battery system</li>
+              <li>Separate rails for compute, motors, peripherals</li>
+              <li>Designed to reduce electrical noise, spikes, and cascades</li>
+            </ul>
+
+            <p><strong>Motion / Chassis</strong></p>
+            <ul>
+              <li>20 cm ball-drive base with stabilization</li>
+              <li>NEMA-class steppers + DM542 drivers</li>
+              <li>Grasping arm/hand for simple manipulation tasks</li>
+              <li>Mechanical design intentionally scalable to heavier frames later</li>
+            </ul>
+
+            <h3>Safety & Fault Tolerance</h3>
+            <ul>
+              <li>Each AI core runs on its own power + data domain.</li>
+              <li>If one domain fails, others can shut down safely or
+                  load minimal models to <strong>limp home</strong>.</li>
+            </ul>
+            <p class="quote">
+              No runaway behavior. No drama.
+              When things go wrong, the robot gets small, honest, and safe.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- THREE HELPERS -->
+    <section id="helpers" class="section">
+      <div class="container">
+        <p class="eyebrow">The Framework</p>
+        <h2>Three Helpers</h2>
+        <p class="lead">
+          We imagine three clear, bounded helpers that work for you.
+        </p>
+
+        <div class="helpers-grid">
+          <article class="card helper-card">
+            <h3>I. The Cloud Helper</h3>
+            <p class="helper-sub">Your paperwork brain.</p>
+            <p>
+              Lives online. Handles the boring admin:
+              money, bills, taxes, calendars, bookings, documents.
+            </p>
+            <p>
+              It keeps your life organized on paper.
+              It does not replace your judgment or your rights.
+            </p>
+          </article>
+
+          <article class="card helper-card">
+            <h3>II. The House Helper</h3>
+            <p class="helper-sub">Your domestic partner in metal.</p>
+            <p>
+              Lives in your home, in a body.
+              Helps with cooking support, cleaning runs,
+              basic repairs, kid-wrangling, tutoring, and small errands.
+            </p>
+            <p>
+              It learns how your household works and how you like things done,
+              and behaves like a respectful, capable housemate who never sleeps.
+            </p>
+          </article>
+
+          <article class="card helper-card">
+            <h3>III. The Work Helper</h3>
+            <p class="helper-sub">Your apprentice, then your colleague.</p>
+            <p>
+              Goes with you into the world (physically or remotely).
+              You teach it your job, step by step, with safety boundaries and oversight.
+            </p>
+            <p>
+              Once it can do meaningful chunks of the work, it takes on those tasks —
+              and the wages go to you, the trainer and owner.
+              Robots don’t erase your contribution; they multiply it.
+            </p>
+          </article>
+        </div>
+
+        <div class="callout">
+          <h3>Why Three?</h3>
+          <ul>
+            <li><strong>Fairness</strong> — value flows back to people, not just the platforms.</li>
+            <li><strong>Safety</strong> — each helper has a clear role and clear limits.</li>
+            <li><strong>Resilience</strong> — if one fails or misbehaves, the others don’t domino with it.</li>
+          </ul>
+          <p>
+            Many small, bounded helpers are safer than one giant unchecked brain.
+            That’s the philosophy behind Serge and the JAMMERS platform.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section section-alt">
+      <div class="container">
+        <p class="eyebrow">About</p>
+        <h2>Who’s Building This?</h2>
+        <p class="lead">
+          This is an applied robotics lab project: one engineer, a lifetime
+          of systems thinking, and a stubborn refusal to leave the future
+          of embodied AI hidden behind closed doors.
+        </p>
+        <p>
+          The goal is simple and difficult at the same time:
+          build a trustworthy, lovable, technically serious house-bot platform
+          the public can actually live with.
+        </p>
+        <p>
+          If embodied AI is coming into homes, it should be shaped by people
+          who care about everyone.
+        </p>
+
+          <p class="contact-note">
+          <!-- Contact details / links go here when we wish  -->
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> Jetsen Cybernetics </span>
+      <span class="footer-note">Built with intention, not hype.</span>
+    </div>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </footer>
+</body>
+</html>
