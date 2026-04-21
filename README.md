@@ -29,16 +29,25 @@ JAMMERS is the engineering backbone that lets Serge-like bots exist: a modular, 
   - **Motion** — locomotion, balance, actions
 
 **Power**
-- Distributed LiFePO₄ battery system
+- Distributed LiFePO₄ battery system, 24/12/3.2V
 - Separate rails for compute, motors, peripherals
 - Designed to reduce electrical noise, spikes, and cascades
+- Toshiba 3.3v 8 channel IC for ESP32 modules
 
 **Motion / Chassis**
 - 20 cm ball-drive base with stabilization (flashy on later models)
 - Track Design (Wall-e / Johnny - 5 inspried, easier to print on commercial 3d printers) 
+- Xiao Esp32-S6 Limbs (servo / motor / cam / distance sensor inputs)
+- WiT small aircraft 9 axis gyroscope w custom software for Jetpack (C++) 
 - NEMA-class steppers + DM542 drivers
 - Grasping arm/hand for simple manipulation tasks + lead screw + servo tools as needed
 - Mechanical design intentionally scalable to heavier frames later
+
+## Senses - 
+IMX stereo 2 MP front facing cams
+Xiao esp32 sense modules (left and right facing cam / mic modules)
+ESP32 PoE rear down facing cam as extra charge port / data connection (rear-cam)
+Esp32 - Cam Front Down-Facing Cam (path tracker)
 
 ### Safety & Fault Tolerance
 - Each AI core runs on its own power + data domain.
