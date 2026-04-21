@@ -6,31 +6,8 @@
 > If we’re going to build this future, we have to do it in the open, with clear rules and clear hearts.
 
 AI and robots are arriving either way. The question isn’t “can we stop it?” — it’s “who do they serve, and how do we live with them?”
-
-### The Worry
-- “Robots will take our jobs.”
-- “AI will flood the world with garbage.”
-- “A few companies will own everything.”
-- “Everything is moving too fast to be safe or fair.”
-
-Those aren’t irrational fears. They’re signals. This project exists because we take them seriously.
-
-### The Alternative
-We want robots that live with us, not above us:
-
-- trustworthy, warm, honest about what they are  
-- doing real work in homes and cities  
-- built with clear limits and accountability  
-
-Not grey stormtrooper machines.  
-Not ad billboards on wheels.  
-Real helpers. House-bots. Companions with boundaries.
-
-**Draft link:** [1st draft](the-worry.md)
-
----
-
 ## Platform
+
 **JAMMERS — The Robotics Backbone**
 
 JAMMERS is the engineering backbone that lets Serge-like bots exist: a modular, CUDA-powered robotics platform designed for home-scale embodied AI.
@@ -68,9 +45,35 @@ JAMMERS is the engineering backbone that lets Serge-like bots exist: a modular, 
 
 > No runaway behavior. No drama.  
 > When things go wrong, the robot gets small, honest, and safe.
-
 ---
 
+## Jetsen SPINE
+The Jetsen Lab Spine connects Jammers to The Jetsen Software Foundry as fully funtional Linux nodes and as personal Project TPM's able to call on the Foundry / Overseer for patches, upgrades, custom software or new models on the fly.
+This could enable a vast array of field work that actively iterates and improves in real time.
+---
+## Philosophy and Intent 
+
+### The Worry
+- “Robots will take our jobs.”
+- “AI will flood the world with garbage.”
+- “A few companies will own everything.”
+- “Everything is moving too fast to be safe or fair.”
+
+Those aren’t irrational fears. They’re signals. This project exists because we take them seriously.
+
+### The Alternative
+We want robots that live with us, not above us:
+
+- trustworthy, warm, honest about what they are  
+- doing real work in homes and cities  
+- built with clear limits and accountability  
+
+Not grey stormtrooper machines.  
+Not ad billboards on wheels.  
+Real helpers. House-bots. Companions with boundaries.
+
+**Draft link:** [1st draft](the-worry.md)
+---
 ## Three Helpers
 **Three Helpers, Not One Overlord**
 
@@ -105,7 +108,14 @@ Once it can do meaningful chunks of the work, it takes on those tasks — and th
 Many small, bounded helpers are safer than one giant unchecked brain. That’s the philosophy behind Serge and the JAMMERS platform.
 
 ---
+## The Promise
+An end to scarcity.
+Distributed, intelligent equity tuned to civilizational need pointed at Civilization 1.0.
+If a robot can drive a truck of materials to site and create 1000 robots to enact a plan within a day.
+That plan can be a vast farm, a sub division, a mall, a theme park, a golf course, solar farm, 
+Then setup comes down to commodity cost and deliverables become abundant over time
 
+---
 ## About
 **Who’s Building This?**
 
