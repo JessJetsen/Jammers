@@ -34,9 +34,10 @@ JAMMERS is the engineering backbone that lets Serge-like bots exist: a modular, 
 - Designed to reduce electrical noise, spikes, and cascades
 
 **Motion / Chassis**
-- 20 cm ball-drive base with stabilization
+- 20 cm ball-drive base with stabilization (flashy on later models)
+- Track Design (Wall-e / Johnny - 5 inspried, easier to print on commercial 3d printers) 
 - NEMA-class steppers + DM542 drivers
-- Grasping arm/hand for simple manipulation tasks
+- Grasping arm/hand for simple manipulation tasks + lead screw + servo tools as needed
 - Mechanical design intentionally scalable to heavier frames later
 
 ### Safety & Fault Tolerance
@@ -55,8 +56,6 @@ This could enable a vast array of field & Lab work that actively iterates and im
 ---
 
 ## Philosophy and Intent 
-
----
 
 ### The Worry
 - “Robots will take our jobs.”
@@ -117,13 +116,17 @@ Many small, bounded helpers are safer than one giant unchecked brain. That’s t
 
 An end to scarcity.
 
-Distributed, intelligent equity tuned to civilizational need pointed at Civilization 1.0.
+Distributed, intelligent equity tuned to civilizational need & pointed at Civilization 1.0.  
 
-If a robot can drive a truck of materials to site and create 1000 robots to enact a plan within a day, scaling becomes possible unlike what we have seen.
+For Humans, for Earth, for the Future that should be.
+
+If a few robots can drive a few trucks of materials to site and create enough robots to enact a large scale plan within a single day, with scheduled project materials following the next day, scaling becomes possible unlike what we have seen.
 
 The plan enacted could be a vast farm, a sub division, a mall, a theme park, a golf course, solar farm ...
 
 The setup of needed infrastructure and it's maintenance then comes down to commodity cost and deliverables become abundant over time, as human effort is replaced by human intelligence as the driving vision, and robots take over the majority of the on-the-ground work.
+
+Safer, Cleaner, Scalable.
 
 ---
 
