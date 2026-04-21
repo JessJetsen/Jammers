@@ -48,10 +48,15 @@ JAMMERS is the engineering backbone that lets Serge-like bots exist: a modular, 
 ---
 
 ## Jetsen SPINE
+
 The Jetsen Lab Spine connects Jammers to The Jetsen Software Foundry as fully funtional Linux nodes and as personal Project TPM's able to call on the Foundry / Overseer for patches, upgrades, custom software or new models on the fly.
-This could enable a vast array of field work that actively iterates and improves in real time.
+This could enable a vast array of field & Lab work that actively iterates and improves in real time.
+
 ---
+
 ## Philosophy and Intent 
+
+---
 
 ### The Worry
 - “Robots will take our jobs.”
@@ -109,13 +114,19 @@ Many small, bounded helpers are safer than one giant unchecked brain. That’s t
 
 ---
 ## The Promise
+
 An end to scarcity.
+
 Distributed, intelligent equity tuned to civilizational need pointed at Civilization 1.0.
-If a robot can drive a truck of materials to site and create 1000 robots to enact a plan within a day.
-That plan can be a vast farm, a sub division, a mall, a theme park, a golf course, solar farm, 
-Then setup comes down to commodity cost and deliverables become abundant over time
+
+If a robot can drive a truck of materials to site and create 1000 robots to enact a plan within a day, scaling becomes possible unlike what we have seen.
+
+The plan enacted could be a vast farm, a sub division, a mall, a theme park, a golf course, solar farm ...
+
+The setup of needed infrastructure and it's maintenance then comes down to commodity cost and deliverables become abundant over time, as human effort is replaced by human intelligence as the driving vision, and robots take over the majority of the on-the-ground work.
 
 ---
+
 ## About
 **Who’s Building This?**
 
