@@ -30,6 +30,9 @@ JAMMERS is the engineering backbone that lets Serge-like bots exist: a modular, 
 
 **Power**
 - Distributed LiFePO₄ battery system, 24/12/3.2V
+- 1-2x 12.8v 10Ah E-bike packs or larger 24v within weight constrainst for motor power and distributed charging (Main power bank)
+- 3x 24v 4000 mAh - as primary Jetson Orin Nano power
+- 3.2v 12Ah packs - As needed for limbs / MC's 
 - Separate rails for compute, motors, peripherals
 - Designed to reduce electrical noise, spikes, and cascades
 - Toshiba 3.3v 8 channel IC for ESP32 modules
@@ -44,9 +47,13 @@ JAMMERS is the engineering backbone that lets Serge-like bots exist: a modular, 
 - Mechanical design intentionally scalable to heavier frames later
 
 ## Senses - 
+
 IMX stereo 2 MP front facing cams
+
 Xiao esp32 sense modules (left and right facing cam / mic modules)
+
 ESP32 PoE rear down facing cam as extra charge port / data connection (rear-cam)
+
 Esp32 - Cam Front Down-Facing Cam (path tracker)
 
 ### Safety & Fault Tolerance
