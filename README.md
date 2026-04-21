@@ -48,20 +48,20 @@ JAMMERS is the engineering backbone that lets Serge-like bots exist: a modular, 
 
 ## Senses - 
 
-IMX stereo 2 MP front facing cams
-
-Xiao esp32 sense modules (left and right facing cam / mic modules)
-
-ESP32 PoE rear down facing cam as extra charge port / data connection (rear-cam)
-
-Esp32 - Cam Front Down-Facing Cam (path tracker)
+** Cameras / Sensors **
+- IMX stereo 2 MP front facing cams with distance sensors
+- Blox gps module
+- Xiao esp32 sense modules (left and right facing cam / mic modules)
+- ESP32 PoE rear down facing cam as extra charge port / data connection (rear-cam)
+- Esp32 - Cam Front Down-Facing Cam (path tracker)
+- Rear Facing Stereo distance Sensor 
 
 ### Safety & Fault Tolerance
 - Each AI core runs on its own power + data domain.
 - If one domain fails, others can shut down safely or load minimal models to **limp home**.
-
 > No runaway behavior. No drama.  
 > When things go wrong, the robot gets small, honest, and safe.
+
 ---
 
 ## Jetsen SPINE
