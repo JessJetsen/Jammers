@@ -109,9 +109,7 @@ Many small, bounded helpers are safer than one giant unchecked brain. That’s t
 ## About
 **Who’s Building This?**
 
-This is an applied robotics lab project: one engineer, a lifetime of systems thinking, and a stubborn refusal to leave the future of embodied AI hidden behind closed doors.
-
-The goal is simple and difficult at the same time: build a trustworthy, lovable, technically serious house-bot platform the public can actually live with.
+This is an applied robotics lab project: one engineer, a lifetime of systems thinking, and a desire that scarcity become a thing of the past.
 
 If embodied AI is coming into homes, it should be shaped by people who care about everyone.
 
