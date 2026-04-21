@@ -66,8 +66,8 @@ JAMMERS is the engineering backbone that lets Serge-like bots exist: a modular, 
 
 ## Jetsen SPINE
 
-The Jetsen Lab Spine connects Jammers to The Jetsen Software Foundry as fully funtional Linux nodes and as personal Project TPM's able to call on the Foundry / Overseer for patches, upgrades, custom software or new models on the fly.
-This could enable a vast array of field & Lab work that actively iterates and improves in real time.
+The Jetsen Lab Spine connects Jammers to The Jetsen Software Foundry as fully funtional Linux nodes and as personal Project TPM's able to call on the Foundry / Overseer for patches, upgrades, custom software or new models on the fly.  This could enable a vast array of field & lab work that actively iterates and improves in real time.
+
 
 ---
 
