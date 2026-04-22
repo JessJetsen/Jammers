@@ -63,10 +63,7 @@ JAMMERS is the engineering backbone that lets Serge-like bots exist: a modular, 
 > When things go wrong, the robot gets small, honest, and safe.
 
 ---
-<img width="1000" height="425" alt="MainMotors" src="https://github.com/user-attachments/assets/5f2ffe37-2a05-4fdd-bbda-e733d1f8e658" />
-<img width="1000" height="800" alt="sensors" src="https://github.com/user-attachments/assets/7874ed95-daae-4fe3-b982-1e1b65471258" />
-<img width="900" height="500" alt="Jetsen+IMX" src="https://github.com/user-attachments/assets/ec68fb39-3294-4504-b636-7f1e49d91172" />
-<img width="1000" height="600" alt="Power" src="https://github.com/user-attachments/assets/6c347c15-abcc-40ae-add7-28b3223b8c90" />
+
 
 ## Jetsen SPINE
 
